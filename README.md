@@ -24,7 +24,6 @@ We introduce the PromptTSE dataset, a new corpus designed for language-queried t
 
 ## Metadata
 Each key in metadata corresponds to a specific type of information as described below.
-
 | Name               | Description                                                    |
 |--------------------|----------------------------------------------------------------|
 | uid                | Utterance ID                                                   |
@@ -33,18 +32,14 @@ Each key in metadata corresponds to a specific type of information as described 
 | params             | SNR [dB] and duration [sec]                                    |
 | speech_label       | Clue related to the target speech (described below)            |
 
-### Clue information
-The `clue` contains the following information:
-
+### The `clue` contains the following information:
 | Name               | Description                                                    |
 |--------------------|----------------------------------------------------------------|
 | prompt             | Prompt used in PNTP-TSE                                        |
 | enrollment         | Path to the enrollment speech                                  |
 | info               | Text prompt describing gender, pitch, speed, and loudness      |
 
-### Speech label
-The `speech_label` contains the following information for both target and interference:
-
+### The `speech_label` contains the following information for both target and interference:
 | Name               | Description                                                    |
 |--------------------|----------------------------------------------------------------|
 | transcription      | Transcription                                                  |
