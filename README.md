@@ -32,14 +32,14 @@ Each key in metadata corresponds to a specific type of information as described 
 | params             | SNR [dB] and duration [sec]                                    |
 | speech_label       | Clue related to the target speech (described below)            |
 
-### The `clue` contains the following information:
+The `clue` contains the following information:
 | Name               | Description                                                    |
 |--------------------|----------------------------------------------------------------|
 | prompt             | Prompt used in PNTP-TSE                                        |
 | enrollment         | Path to the enrollment speech                                  |
 | info               | Text prompt describing gender, pitch, speed, and loudness      |
 
-### The `speech_label` contains the following information for both target and interference:
+The `speech_label` contains the following information for both target and interference:
 | Name               | Description                                                    |
 |--------------------|----------------------------------------------------------------|
 | transcription      | Transcription                                                  |
@@ -51,4 +51,5 @@ Each key in metadata corresponds to a specific type of information as described 
 
 # References
 [1] M. Kawamura, R. Yamamoto, Y. Shirahata, T. Hasumi, and K. Tachibana, “LibriTTS-P: A corpus with speaking style and speaker identity prompts for text-tospeech and style captioning,” in Proc. INTERSPEECH, Kos, Greek, 2024, pp. 1850–1854.
+
 [2] J. Richter, Y.-C. Wu, S. Krenn, S. Welker, B. Lay, S. Watanabe, A. Richard, and T. Gerkmann, “EARS: An anechoic fullband speech dataset benchmarked for speech enhancement and dereverberation,” in Proc. INTERSPEECH, Kos, Greek, 2024, pp. 4873–4877.
