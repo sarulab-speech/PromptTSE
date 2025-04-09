@@ -2,7 +2,7 @@
 We introduce the PromptTSE dataset, a new corpus designed for language-queried target speech extraction. This corpus is derived from LibriTTS-P [1] and EARS [2], and consists of triplets of target speech, interference speech, and speech mixtures, along with metadata.
 
 # How to use PromptTSE
-*The dataset is available from [here](https://huggingface.co/datasets/sarulab-speech/PromptTSE/tree/main)*
+**PromptTSE is available from [here](https://huggingface.co/datasets/sarulab-speech/PromptTSE/tree/main)**
 
 ## Dataset Structure
 ```
