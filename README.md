@@ -81,8 +81,6 @@ The citations for the original LibriTTS-P and EARS papers are as follows, respec
   pages={4873--4877},
   year={2024}
 }
-
-
 ```
 
 # References
